@@ -2,7 +2,7 @@
   <div class="container">
     <header>
       <Logo />
-      <Button title="Documents" />
+      <Button color="silvertree" title="Documents" />
     </header>
   </div>
 </template>

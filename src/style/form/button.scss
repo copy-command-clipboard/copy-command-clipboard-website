@@ -25,8 +25,8 @@ button {
         padding: 16px 33px;
     }
 
-    &.algaegreen {
-        background-color: $algaegreen;
+    &.silvertree {
+        background-color: $silvertree;
 
         &:hover {
             background-color: $pastelgreen;
@@ -42,14 +42,6 @@ button {
             background-color: $azureradiance;
             color: $white;
             border: 1px solid $white;
-        }
-    }
-
-    &.azureradiance {
-        background-color: $azureradiance;
-
-        &:hover {
-            background-color: $toryblue;
         }
     }
 }
