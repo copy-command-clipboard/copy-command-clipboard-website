@@ -1,5 +1,5 @@
 <template>
-  <button v-bind:class={color}>{{ title }}</button>
+  <button :class="color">{{ title }}</button>
 </template>
 
 <script>
@@ -7,7 +7,7 @@ export default {
   name: "Button",
   props: {
     title: String,
-    color: String,
+    color: String
   },
 };
 </script>
