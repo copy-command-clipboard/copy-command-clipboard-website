@@ -1,0 +1,29 @@
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+@import "./main/variables";
+@import "./main/reset";
+@import "./main/icons";
+@import "./main/typography";
+
+@import "./layout/header";
+@import "./layout/footer";
+
+@import "./form/button";
+@import "./form/select";
+
+// @import "./splash-section";
+// @import "./services-section";
+// @import "./development-environments-section";
+// @import "./detail-section";
+// @import "./error-section";
+
+// @import "./services-item";
+// @import "./development-environment-item";
+// @import "./detail-item";
+
+// @import "./browser-card";
+
+// @import "./code-widget";
+// @import "./sidebar";

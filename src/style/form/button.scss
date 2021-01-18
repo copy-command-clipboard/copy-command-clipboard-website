@@ -1,0 +1,67 @@
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px 30px;
+    font-size: 14px;
+    color: $white;
+
+    appearance: none;
+    outline: none;
+    border: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    transition-property: background-color, color;
+
+    i {
+        font-size: 23px;
+        margin-right: 10px;
+    }
+
+    &.large {
+        font-size: 16px;
+        padding: 16px 33px;
+    }
+
+    &.algaegreen {
+        background-color: $algaegreen;
+
+        &:hover {
+            background-color: $pastelgreen;
+        }
+    }
+
+    &.white {
+        background-color: $white;
+        color: $azureradiance;
+        border: 1px solid transparent;
+
+        &:hover {
+            background-color: $azureradiance;
+            color: $white;
+            border: 1px solid $white;
+        }
+    }
+
+    &.azureradiance {
+        background-color: $azureradiance;
+
+        &:hover {
+            background-color: $toryblue;
+        }
+    }
+}
+
+@media screen and (max-width: $md) {
+    button {
+        padding: 8px 20px;
+        font-size: 13px;
+
+        &.large {
+            font-size: 14px;
+            padding: 12px 24px;
+        }
+    }
+}
