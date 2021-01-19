@@ -1,8 +1,12 @@
 <template>
   <div class="container">
     <header>
-      <Logo />
-      <Button color="silvertree" title="Documents" />
+      <router-link to="/">
+        <Logo />
+      </router-link>
+      <router-link to="/installation">
+        <Button color="silvertree" title="Documents" />
+      </router-link>
     </header>
   </div>
 </template>
@@ -16,6 +20,6 @@ export default {
   components: {
     Logo,
     Button,
-  }
+  },
 };
 </script>

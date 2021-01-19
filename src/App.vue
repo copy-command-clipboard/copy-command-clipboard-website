@@ -1,12 +1,19 @@
 <template>
   <div class="container">
-    <div id="nav">
-      <router-link to="/">Home</router-link>
-      <router-link to="/installation">Installation</router-link>
-    </div>
+    <Header />
     <router-view />
   </div>
 </template>
+
+<script>
+import Header from './components/layout/header';
+
+export default {
+  components: {
+    Header
+  }
+}
+</script>
 
 <style lang="scss">
 @import "./style/style.scss";
