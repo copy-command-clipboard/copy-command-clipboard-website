@@ -1,14 +1,25 @@
 <template>
   <section class="splash-section">
-    <div class="container">
-      
+    <div class="container h-100 d-flex flex-column justify-content-between">
+      <Header />
+      <article>
+        <h1>Copy Command Clipboard</h1>
+        <h2>Amazing loading animations for React. Waiting is less boring now.</h2>
+      </article>
+      <div class="div">
+        foot
+      </div>
     </div>
   </section>
 </template>
 
 <script>
+import Header from "../layout/header";
+
 export default {
   name: "Splash",
-  components: {},
+  components: {
+    Header,
+  },
 };
 </script>

@@ -1,14 +1,12 @@
 <template>
-  <div class="container">
-    <header>
-      <router-link to="/">
-        <Logo />
-      </router-link>
-      <router-link to="/installation">
-        <Button color="silvertree" title="Documents" />
-      </router-link>
-    </header>
-  </div>
+  <header>
+    <router-link to="/">
+      <Logo />
+    </router-link>
+    <router-link to="/installation">
+      <Button color="silvertree" title="Documents" />
+    </router-link>
+  </header>
 </template>
 
 <script>

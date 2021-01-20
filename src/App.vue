@@ -1,19 +1,6 @@
 <template>
-  <div class="container">
-    <Header />
-    <router-view />
-  </div>
+  <router-view />
 </template>
-
-<script>
-import Header from './components/layout/header';
-
-export default {
-  components: {
-    Header
-  }
-}
-</script>
 
 <style lang="scss">
 @import "./style/style.scss";
