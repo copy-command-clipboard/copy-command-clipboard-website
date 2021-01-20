@@ -1,9 +1,14 @@
 <template>
-  <h1>Home</h1>
+  <Splash />
 </template>
 
 <script>
+import Splash from "../components/splash";
+
 export default {
-  name: 'Home'
+  name: 'Home',
+  components: {
+    Splash
+  }
 }
 </script>
