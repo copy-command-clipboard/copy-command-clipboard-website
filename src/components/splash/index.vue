@@ -6,6 +6,7 @@
         <h2>
           Amazing loading animations for React. Waiting is less boring now.
         </h2>
+        <CopyCommand />
       </article>
     </div>
     <div class="wave">
@@ -16,11 +17,13 @@
 
 <script>
 import Wave from "../../assets/svg/wave.svg";
+import CopyCommand from "../copy-command";
 
 export default {
   name: "Splash",
   components: {
     Wave,
+    CopyCommand
   },
 };
 </script>
