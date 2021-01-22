@@ -6,7 +6,7 @@
         <h2>
           Amazing loading animations for React. Waiting is less boring now.
         </h2>
-        <CopyCommand code="npm i copy-command-clipboard" />
+        <CopyCommand code="npm i copy-command-clipboard" :isLarge="true" />
       </article>
     </div>
     <div class="wave">
@@ -23,7 +23,7 @@ export default {
   name: "Splash",
   components: {
     Wave,
-    CopyCommand
+    CopyCommand,
   },
 };
 </script>
