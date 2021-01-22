@@ -1,5 +1,5 @@
 <template>
-  <div class="code-widget" :class="{ large: isLarge }" v-on:click="onClick">
+  <div class="code-widget" :class="{ large: isLarge, copied: isCopied }" v-on:click="onClick">
     <div class="copy-message">Copied!</div>
     <code>{{ code }}</code>
     <i class="icon-copy"></i>
@@ -13,10 +13,15 @@ export default {
     code: String,
     isLarge: Boolean,
   },
+  data() {
+    return {
+      isCopied: false,
+    };
+  },
   methods: {
-    onClick: function() {
-      console.log('click!')
-    }
-  }
+    onClick: function () {
+      console.log(this);
+    },
+  },
 };
 </script>
