@@ -6,7 +6,7 @@
         <h2>
           Amazing loading animations for React. Waiting is less boring now.
         </h2>
-        <CopyCommand />
+        <CopyCommand code="npm i copy-command-clipboard" />
       </article>
     </div>
     <div class="wave">

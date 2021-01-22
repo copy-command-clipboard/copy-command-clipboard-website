@@ -1,7 +1,7 @@
 <template>
   <div class="code-widget large">
     <div class="copy-message">Copied!</div>
-    <code>npm i copy-command-clipboard</code>
+    <code>{{ code }}</code>
     <i class="icon-copy"></i>
   </div>
 </template>
@@ -10,6 +10,7 @@
 export default {
   name: "CopyCommand",
   props: {
+    code: String,
   },
 };
 </script>
