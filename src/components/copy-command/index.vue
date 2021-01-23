@@ -1,6 +1,10 @@
 <template>
-  <div class="code-widget" :class="{ large: isLarge, copied: isCopied }" v-on:click="onClick">
-    <div class="copy-message">Copied!</div>
+  <div
+    class="code-widget"
+    :class="{ large: isLarge, copied: isCopied }"
+    v-on:click="onClick"
+  >
+    <div class="copy-message">Copied text to clipboard.</div>
     <code>{{ code }}</code>
     <i class="icon-copy"></i>
   </div>
@@ -20,7 +24,16 @@ export default {
   },
   methods: {
     onClick: function () {
-      console.log(this);
+      this.isCopied = true;
+      navigator.clipboard.writeText(this.code);
+      this.resetCopiedInfo();
+    },
+    resetCopiedInfo: function () {
+      let resetInterval = setInterval(() => {
+        this.isCopied = false;
+
+        clearInterval(resetInterval);
+      }, 3000);
     },
   },
 };
