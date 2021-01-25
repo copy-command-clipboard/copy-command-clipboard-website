@@ -31,6 +31,26 @@ export default {
           detail: "Browser friendly animation.",
           icon: "world",
         },
+        {
+          title: "Documentation",
+          detail: "Descriptive and easy to read documentation.",
+          icon: "book",
+        },
+        {
+          title: "Editable",
+          detail: "Editable features.",
+          icon: "puzzle",
+        },
+        {
+          title: "UI/UX",
+          detail: "User friendly interface.",
+          icon: "brush",
+        },
+        {
+          title: "Open Source",
+          detail: "You can review my code and support me.",
+          icon: "open-source",
+        },
       ],
     };
   },
