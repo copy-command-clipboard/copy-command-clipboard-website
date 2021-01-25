@@ -1,5 +1,5 @@
-@import 'node_modules/bootstrap/scss/bootstrap.scss';
-@import 'node_modules/bootstrap-vue/src/index.scss';
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+@import "node_modules/bootstrap-vue/src/index.scss";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 @import "./main/variables";
@@ -16,6 +16,8 @@
 @import "./splash-section";
 @import "./wave";
 @import "./code-widget";
+@import "./services-card";
+
 // @import "./services-section";
 // @import "./development-environments-section";
 // @import "./detail-section";
@@ -26,6 +28,5 @@
 // @import "./detail-item";
 
 // @import "./browser-card";
-
 
 // @import "./sidebar";
