@@ -12,7 +12,6 @@
 
 <script>
 import Item from "./item";
-import HandIcon from "../../assets/svg/hand.svg";
 
 export default {
   name: "ServicesSection",
@@ -25,7 +24,12 @@ export default {
         {
           title: "Simple to use",
           detail: "Easy to use and understandable options.",
-          icon: <HandIcon />,
+          icon: "hand",
+        },
+        {
+          title: "Browser Support",
+          detail: "Browser friendly animation.",
+          icon: "world",
         },
       ],
     };
