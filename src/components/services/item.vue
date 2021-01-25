@@ -1,25 +1,25 @@
 <template>
   <div class="services-card">
     <figure>
-      <Hand />
+      {{icon}}
     </figure>
     <article>
-      <h4>Simple to use</h4>
-      <p>Easy to use and understandable options.</p>
+      <h4>{{ title }}</h4>
+      <p>{{ detail }}</p>
     </article>
   </div>
 </template>
 
 <script>
-import Hand from "../../assets/svg/hand.svg";
 
 export default {
   name: "ServicesCard",
   components: {
-    Hand,
   },
   props: {
     title: String,
+    detail: String,
+    icon: Object
   },
 };
 </script>
