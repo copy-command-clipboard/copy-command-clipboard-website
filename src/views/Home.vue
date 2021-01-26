@@ -1,5 +1,5 @@
 <template>
-  <div class="pages">
+  <div class="home-content">
     <Splash />
     <Services />
   </div>
