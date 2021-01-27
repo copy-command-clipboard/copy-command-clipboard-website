@@ -1,6 +1,6 @@
 <template>
-  <Detail title="Installation">
-    <span>soner</span>
+  <Detail title="Usage">
+    <span>usage soner</span>
   </Detail>
 </template>
 
@@ -8,7 +8,7 @@
 import Detail from "../components/detail";
 
 export default {
-  name: "Installation",
+  name: "Usage",
   components: {
     Detail,
   },
