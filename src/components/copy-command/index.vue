@@ -23,12 +23,12 @@ export default {
     };
   },
   methods: {
-    onClick: function () {
+    onClick() {
       this.isCopied = true;
       navigator.clipboard.writeText(this.code);
       this.resetCopiedInfo();
     },
-    resetCopiedInfo: function () {
+    resetCopiedInfo() {
       let resetInterval = setInterval(() => {
         this.isCopied = false;
 
