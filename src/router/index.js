@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 
 import Home from '../views/Home.vue'
 import Installation from '../views/Installation.vue'
+import Usage from '../views/Usage.vue'
 
 Vue.use(VueRouter)
 
@@ -16,7 +17,12 @@ const routes = [
     path: '/installation',
     name: 'Installation',
     component: Installation
-  }
+  },
+  {
+    path: '/usage',
+    name: 'Usage',
+    component: Usage
+  },
 ]
 
 const router = new VueRouter({

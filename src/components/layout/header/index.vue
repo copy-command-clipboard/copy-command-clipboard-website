@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div
+    <nav
       class="container d-flex align-items-center align-md-items-end justify-content-between flex-column flex-md-row"
     >
       <router-link to="/">
@@ -9,7 +9,7 @@
       <router-link to="/installation">
         <Button color="silvertree" title="Documents" />
       </router-link>
-    </div>
+    </nav>
   </header>
 </template>
 
