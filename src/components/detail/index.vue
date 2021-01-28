@@ -6,7 +6,7 @@
       <div class="row">
         <div class="col-md-4">sidebar</div>
         <div class="col-md-8">
-          <template></template>
+          <slot />
         </div>
       </div>
     </div>
