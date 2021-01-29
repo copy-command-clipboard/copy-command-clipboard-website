@@ -4,7 +4,9 @@
       <h1 class="large silvertree">Copy Command Clipboard</h1>
       <h2 class="small">GETTING STARTED</h2>
       <div class="row">
-        <div class="col-md-4">sidebar</div>
+        <div class="col-md-4">
+          <Sidebar />
+        </div>
         <div class="col-md-8">
           <slot />
         </div>
@@ -14,9 +16,14 @@
 </template>
 
 <script>
+import Sidebar from "../sidebar";
+
 export default {
   props: {
     title: String,
+  },
+  components: {
+    Sidebar,
   },
 };
 </script>
