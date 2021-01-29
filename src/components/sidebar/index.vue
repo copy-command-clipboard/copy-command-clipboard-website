@@ -1,8 +1,15 @@
 <template>
   <aside>
-    <div class="col-md-4" v-for="item in data" :key="item.title">
-      {{ item.title }}
-    </div>
+    <ul v-for="item in data" :key="item.id" class="d-none d-sm-none d-md-block">
+      <li>
+        <h4>{{ item.title }}</h4>
+      </li>
+      <li v-for="subItem in item.links" :key="subItem.id">
+        <router-link :to="subItem.url" :class="{ active: current === subItem.url }">
+          {{ subItem.title }}
+        </router-link>
+      </li>
+    </ul>
   </aside>
 </template>
 
@@ -13,6 +20,7 @@ export default {
   data() {
     return {
       data: MenuData,
+      current: window.location.pathname,
     };
   },
 };
