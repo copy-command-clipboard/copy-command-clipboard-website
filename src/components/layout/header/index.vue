@@ -1,7 +1,7 @@
 <template>
   <header>
     <nav
-      class="container d-flex align-items-center align-md-items-end justify-content-between flex-column flex-md-row"
+      class="container d-flex align-items-center align-md-items-end justify-content-between flex-md-row"
     >
       <router-link to="/">
         <Logo />

@@ -15,7 +15,6 @@ export default {
   },
   methods: {
     onChange(event) {
-      console.log(event.target.value);
       this.$router.push({ path: event.target.value })
     },
   },
