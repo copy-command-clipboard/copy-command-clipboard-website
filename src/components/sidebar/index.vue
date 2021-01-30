@@ -1,5 +1,6 @@
 <template>
   <aside>
+    <MobileSidebar :data="data" />
     <ul v-for="item in data" :key="item.id" class="d-none d-sm-none d-md-block">
       <li>
         <h4>{{ item.title }}</h4>
@@ -15,8 +16,12 @@
 
 <script>
 import MenuData from "./data";
+import MobileSidebar from "./mobile";
 
 export default {
+  components: {
+    MobileSidebar,
+  },
   data() {
     return {
       data: MenuData,
