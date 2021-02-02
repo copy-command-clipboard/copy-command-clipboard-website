@@ -23,11 +23,6 @@ export default [
         id: "sidebar.api.options.title",
         title: "Options",
         url: "/options"
-      },
-      {
-        id: "sidebar.api.classes.title",
-        title: "Animations",
-        url: "/animations"
       }
     ]
   },
