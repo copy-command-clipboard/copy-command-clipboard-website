@@ -1,0 +1,16 @@
+<template>
+  <Detail title="Browser">
+    <span>Browser page.</span>
+  </Detail>
+</template>
+
+<script>
+import Detail from "../components/detail";
+
+export default {
+  name: "Browser",
+  components: {
+    Detail,
+  },
+};
+</script>
