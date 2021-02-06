@@ -4,6 +4,9 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Installation from '../views/Installation.vue'
 import Usage from '../views/Usage.vue'
+import Options from '../views/Options.vue'
+import Browser from '../views/Browser.vue'
+import Contact from '../views/Contact.vue'
 
 Vue.use(VueRouter)
 
@@ -22,6 +25,21 @@ const routes = [
     path: '/usage',
     name: 'Usage',
     component: Usage
+  },
+  {
+    path: '/options',
+    name: 'Options',
+    component: Options
+  },
+  {
+    path: '/browser',
+    name: 'Browser',
+    component: Browser
+  },
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: Contact
   },
 ]
 
