@@ -8,6 +8,7 @@
           <Sidebar />
         </div>
         <div class="col-md-8">
+          <h3>Installation</h3>
           <slot />
         </div>
       </div>
