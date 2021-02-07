@@ -23,6 +23,11 @@ export default {
   props: {
     title: String,
   },
+  watch: {
+    $route() {
+      console.log('route!')
+    },
+  },
   components: {
     Sidebar,
   },
