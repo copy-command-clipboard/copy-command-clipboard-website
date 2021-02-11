@@ -1,11 +1,13 @@
 <template>
   <Detail title="Installation">
-    <article className="detail-item">
+    <article class="detail-item">
       <h4>Github</h4>
-      <p className="mb-4">
-        You can clone repo from Github and free use in your project. Copy this
-        code and paste code in console.
-      </p>
+      <p class="mb-4">You can clone repo from Github and free use in your project. Copy this code and paste code in console.</p>
+      <CopyCommand code="git clone https://github.com/copy-command-clipboard/copy-command-clipboard.git" />
+    </article>
+    <article class="detail-item">
+      <h4>NPM</h4>
+      <p class="mb-4">You can download up to date npm package. Copy this code and paste code in console.</p>
       <CopyCommand code="npm i copy-command-clipboard" />
     </article>
   </Detail>
