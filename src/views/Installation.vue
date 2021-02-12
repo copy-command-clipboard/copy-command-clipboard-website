@@ -19,6 +19,11 @@ import CopyCommand from "../components/copy-command";
 
 export default {
   name: "Installation",
+  watch: {
+    $route(to, from) {
+      console.log(to, from)
+    },
+  },
   components: {
     Detail,
     CopyCommand,
