@@ -18,10 +18,16 @@
 
 <script>
 import Sidebar from "../sidebar";
+import MenuData from "../sidebar/data";
 
 export default {
-  props: {
-    title: String,
+  created() {
+    console.log(window.location);
+  },
+  data() {
+    return {
+      data: MenuData,
+    };
   },
   components: {
     Sidebar,
