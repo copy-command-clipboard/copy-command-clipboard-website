@@ -1,5 +1,5 @@
 <template>
-  <Detail title="Support">
+  <Detail>
     <span>Support page.</span>
   </Detail>
 </template>

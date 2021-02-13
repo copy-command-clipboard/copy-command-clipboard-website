@@ -1,5 +1,5 @@
 <template>
-  <Detail title="Browser">
+  <Detail>
     <span>Browser page.</span>
   </Detail>
 </template>

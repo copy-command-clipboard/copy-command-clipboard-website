@@ -1,5 +1,5 @@
 <template>
-  <Detail title="Installation">
+  <Detail>
     <article class="detail-item">
       <h4>Github</h4>
       <p class="mb-4">You can clone repo from Github and free use in your project. Copy this code and paste code in console.</p>
@@ -19,11 +19,6 @@ import CopyCommand from "../components/copy-command";
 
 export default {
   name: "Installation",
-  watch: {
-    $route(to, from) {
-      console.log(to, from)
-    },
-  },
   components: {
     Detail,
     CopyCommand,

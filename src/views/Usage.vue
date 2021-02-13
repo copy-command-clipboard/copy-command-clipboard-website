@@ -1,5 +1,5 @@
 <template>
-  <Detail title="Usage">
+  <Detail>
     <article class="detail-item">
       <h4>Import</h4>
       <p class="mb-4">Firstly import copy-command-clipboard library.</p>

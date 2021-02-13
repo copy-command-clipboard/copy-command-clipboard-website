@@ -1,5 +1,5 @@
 <template>
-  <Detail title="Options">
+  <Detail>
     <span>Options page.</span>
   </Detail>
 </template>
