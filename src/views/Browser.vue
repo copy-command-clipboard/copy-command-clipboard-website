@@ -1,6 +1,25 @@
 <template>
   <Detail>
-    <span>Browser page.</span>
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="browser-card"></div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="browser-card"></div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="browser-card"></div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="browser-card"></div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="browser-card"></div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="browser-card"></div>
+      </div>
+    </div>
   </Detail>
 </template>
 
