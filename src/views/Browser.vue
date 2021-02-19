@@ -28,7 +28,7 @@
       </div>
       <div class="col-lg-4 col-md-6">
         <div class="browser-card">
-          <Chrome />
+          <component :is="chromeLogo" />
         </div>
       </div>
     </div>
@@ -42,7 +42,6 @@ import Edge from "../assets/svg/edge.svg";
 import Firefox from "../assets/svg/firefox.svg";
 import Opera from "../assets/svg/opera.svg";
 import Safari from "../assets/svg/safari.svg";
-import Chrome from "../assets/svg/chrome.svg";
 
 export default {
   name: "Browser",
@@ -53,7 +52,11 @@ export default {
     Firefox,
     Opera,
     Safari,
-    Chrome,
+  },
+  computed: {
+    chromeLogo() {
+      return () => import(`@/assets/svg/chrome.svg`);
+    },
   },
 };
 </script>
