@@ -28,7 +28,7 @@
       </div>
       <div class="col-lg-4 col-md-6">
         <div class="browser-card">
-          <InlineSvg src="assets/svg/chrome.svg" />
+          <Chrome />
         </div>
       </div>
     </div>
@@ -36,14 +36,13 @@
 </template>
 
 <script>
-import InlineSvg from "vue-inline-svg";
 import Detail from "../components/detail";
-import Explorer from "../assets/svg/explorer.svg";
-import Edge from "../assets/svg/edge.svg";
-import Firefox from "../assets/svg/firefox.svg";
-import Opera from "../assets/svg/opera.svg";
-
 import Safari from "../components/logo/safari";
+import Chrome from "../components/logo/chrome";
+import Explorer from "../components/logo/explorer";
+import Edge from "../components/logo/edge";
+import Firefox from "../components/logo/firefox";
+import Opera from "../components/logo/opera";
 
 export default {
   name: "Browser",
@@ -54,7 +53,7 @@ export default {
     Firefox,
     Opera,
     Safari,
-    InlineSvg,
+    Chrome,
   },
 };
 </script>
