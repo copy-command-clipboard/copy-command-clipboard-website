@@ -7,6 +7,7 @@ import Usage from '../views/Usage.vue'
 import Options from '../views/Options.vue'
 import Browser from '../views/Browser.vue'
 import Contact from '../views/Contact.vue'
+import Demo from '../views/Demo.vue'
 
 Vue.use(VueRouter)
 
@@ -40,6 +41,11 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     component: Contact
+  },
+  {
+    path: '/demo',
+    name: 'Demo',
+    component: Demo
   },
 ]
 

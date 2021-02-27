@@ -12,6 +12,11 @@ export default [
         id: "sidebar.gettingStarted.usage.title",
         title: "Usage",
         url: "/usage"
+      },
+      {
+        id: "sidebar.gettingStarted.demo.title",
+        title: "Demo",
+        url: "/demo"
       }
     ]
   },
