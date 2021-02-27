@@ -1,0 +1,6 @@
+input:not([type="file"]):not([type="submit"]) {
+  width: 100%;
+  border: solid 1px $athensgray;
+  border-radius: 6px;
+  padding: 15px 30px;
+}
